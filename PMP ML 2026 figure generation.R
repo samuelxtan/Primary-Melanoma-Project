@@ -40,10 +40,10 @@ loadfonts()
 
 .cm = 2.54
 
-setwd("C:/tmp/ML data")
+setwd("C:/filepath")
 
 #Figure 1B
-FData <- read.csv("FinalData.csv")
+FData <- read.csv("data_path.csv")
 Final <- FData
 
 convert_categorical <- function(x) {
